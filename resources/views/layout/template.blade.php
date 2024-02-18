@@ -46,10 +46,12 @@
         </a>
         <ul class="navbar_coplet">
             <li><a href="{{ route('about-us') }}">about</a></li>
-            <li>
             <li><a href="{{ route('nos-partenaire') }}">partenaire</a></li>
-            <li>
             <li><a href="{{ route('nos-temoignage') }}">temoignage</a></li>
+            <li><a href="{{ route('nos-actualite') }}">actualite</a></li>
+            <li><a href="{{ route('nos-engagement') }}">engagement</a></li>
+            <li><a href="{{ route('nos-parcour') }}">parcour</a></li>
+
             <li>
                 <a href="{{ route('mon-cv') }}">
                     Mon CV

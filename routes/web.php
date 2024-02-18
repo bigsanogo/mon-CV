@@ -33,6 +33,18 @@ Route::get('apropo', function () {
     return view('mes sections/about');
 })->name('about-us');
 
+Route::get('parcour', function () {
+    return view('mes sections/parcour');
+})->name('nos-parcour');
+
+Route::get('engagement', function () {
+    return view('mes sections/engagement');
+})->name('nos-engagement');
+
+Route::get('actualite', function () {
+    return view('mes sections/actualite');
+})->name('nos-actualite');
+
 Route::get('etic.html', [DataController::class, 'index']);
 
 

@@ -15,8 +15,8 @@ return new class extends Migration
     {
         Schema::create('temoignages', function (Blueprint $table) {
             $table->id();
-            $table->string("image")->default(false);
-            $table->boolean("actif")->default(false);
+            $table->string("image");
+            $table->boolean("actif");
             $table->timestamp("created_at")->useCurrent();
             $table->timestamp("updated_at")->useCurrent()->useCurrentOnUpdate();
         });
